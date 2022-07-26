@@ -1,5 +1,11 @@
 .footer__link {
     list-style: none;
+
+& .link:hover,
+&.link:focus {
+    color: var(--link-color);
+}
+
 }
 .footer__content {
     padding-top: 60px;
@@ -16,16 +22,9 @@
     align-items: baseline;
 }
 
-
-
-.footer__link .link:hover,
-.footer__link .link:focus {
-    color: var(--link-color);
-}
-
-
 .footer__address {
     font-style: normal;
+    
     }
 
 
@@ -51,16 +50,12 @@
     color: var(--secondary-text-color);
 }
 
-
-
-
-
 .footer__content {
     background-color: var(--first-bcg-color);
 }
 
 
-.footer__content .logo {
+.footer__content .footer__logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;

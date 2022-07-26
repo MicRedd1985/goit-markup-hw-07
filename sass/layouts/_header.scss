@@ -30,14 +30,9 @@
 .header__link {
     align-items: center;
     display: flex;
+    list-style: none;
     
 }
-
-.header__link,
-.contact__link {
-    list-style: none;
-}
-
 
 .header .link:hover,
 .header .link:focus{
@@ -78,8 +73,12 @@
     display: flex;
     padding-left: 0px;
     margin: 0px;
-    align-items: center
+    align-items: center;
+    list-style: none;
 
+    &>.item.item:nth-child(1) {
+        margin-right: 50px;
+    }
    }
 
 .contact__link .link {
@@ -94,10 +93,6 @@
     
 }
 
-.contact__link>.item.item:nth-child(1) {
-    margin-right: 50px;
-}
-
 .icon__mail {
     vertical-align: -1px;
 
@@ -108,12 +103,9 @@
 
 }
 
-  
-  .icon__tel {
+.icon__tel {
     vertical-align: bottom;
-
     width: 10px;
-
     height: 16px;
     margin-right: 10px;
     fill: currentColor;

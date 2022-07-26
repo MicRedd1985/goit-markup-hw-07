@@ -31,17 +31,13 @@
     fill: #000000;
     cursor: pointer;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    
-  }
 
-  .modal__button:hover,
-.modal__button:focus {
+    &:hover,
+    &:focus {
+      fill: var(--link-color);}
+    }
 
-  fill: var(--link-color);
-
-}
   
-  /* modal form */
 
 .modal__form {
   display: block;
@@ -115,15 +111,15 @@
 .signup__text {
   padding: 12px 16px;
   resize: none;
-}
 
-.signup__text::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+  
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .policy__label {
@@ -193,11 +189,11 @@
 
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.form__button:hover,
-.form__button:focus {
+  &:hover,
+&:focus {
   background-color: var(--link-bg-color);
+}
 }
  
 textarea {
