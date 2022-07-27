@@ -1,12 +1,10 @@
 .footer__link {
-    list-style: none;
+    list-style: none;}
 
-& .link:hover,
-&.link:focus {
-    color: var(--link-color);
-}
+.footer__link .link:hover,
+.footer__link .link:focus {
+    color: var(--link-color);}
 
-}
 .footer__content {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -24,8 +22,7 @@
 
 .footer__address {
     font-style: normal;
-    
-    }
+}
 
 
 .footer__link .link {
@@ -53,7 +50,6 @@
 .footer__content {
     background-color: var(--first-bcg-color);
 }
-
 
 .footer__content .footer__logo {
     font-family: 'Raleway';

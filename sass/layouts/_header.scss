@@ -10,6 +10,12 @@
         display: flex;
         align-items: center;
     }
+
+    &__list {
+        align-items: center;
+        display: flex;
+        list-style: none;
+    }
 }
 
 .header .logo {
@@ -27,12 +33,7 @@
 }
   
  
-.header__link {
-    align-items: center;
-    display: flex;
-    list-style: none;
-    
-}
+
 
 .header .link:hover,
 .header .link:focus{
@@ -40,7 +41,7 @@
 }
 
 
-.header__link .link {
+.header__list .link {
     display: block;
     text-decoration: none;
     font-weight: 500;
@@ -56,16 +57,16 @@
 }
 
 
-.header__link .link__current {
+.header__list .link__current {
     color: var(--link-color);
     
 }
 
-.header__link>.item.item:nth-child(-n+2) {
+.header__list>.header__list-item.header__list-item:nth-child(-n+2) {
     margin-right: 50px;
 }
 
-.item.is--active {
+.header__list-item.is--active {
     position: relative;
   }
 
