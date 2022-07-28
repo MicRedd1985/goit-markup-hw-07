@@ -69,6 +69,11 @@ img {
   padding: 0 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -528,11 +533,6 @@ textarea {
   width: 100%;
   height: 4px;
   background-color: var(--link-color);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .project__list {
